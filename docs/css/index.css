@@ -227,7 +227,6 @@ ul#navMenu li a:hover , ul#navMenu li a#current { /* マウスON時 , カレン�
 	ul#navMenu li a {
 		padding: 0 0 ;
 	}
-
 }
 
 @media only screen and (max-width:830px){
@@ -269,7 +268,7 @@ ul#navMenu li a:hover , ul#navMenu li a#current { /* マウスON時 , カレン�
 	}
 	.mainContentsFrame h2 {
 		font-size:115%;
-		margin-top:5px;
+		margin-top:15px;
 	}
 	.previousCallenge {
 		font-size:100%;
@@ -277,5 +276,15 @@ ul#navMenu li a:hover , ul#navMenu li a#current { /* マウスON時 , カレン�
 	}
 	#news_event {
 		margin-top:40px;
+	}
+	#member li {
+		width: 170px;
+		height: 330px;
+		margin-right: 5px;
+		line-height:1;
+	}
+	#member .portrait {
+		width: 170px;
+		margin-bottom: 0;
 	}
 }
