@@ -31,10 +31,11 @@ ul#navMenu li a {
 	display: table-cell;
 	vertical-align: middle;
 	height: 60px ;
-	padding: 0 26px ;
+	padding: 0 20px ;
 	text-decoration:none;
 	background:#EEE;
 	color:#444;
+	font-size:95%;
 	font-weight:bold;
 	line-height:1.3;
 }
@@ -204,6 +205,15 @@ ul#navMenu li a:hover , ul#navMenu li a#current { /* マウスON時 , カレン�
 	margin: 3px 0 3px 10px;
 }
 
+/******  技術情報のページ用   *******************************************/
+.slideFrame {
+	border:1px solid #CCC; 
+	border-width:1px; 
+	margin-bottom:5px; 
+	max-width: 100%; 
+	display:block;
+}
+
 /******  メディアクエリ   *******************************************/
 @media only screen and (max-width:1110px){
 	#headerLogoImg {
@@ -222,7 +232,7 @@ ul#navMenu li a:hover , ul#navMenu li a#current { /* マウスON時 , カレン�
 	ul#navMenu li {
 		text-align:center;
 		border-right:1px solid #CCC;
-		width:19.8%;
+		width:16.4%;
 	}
 	ul#navMenu li a {
 		padding: 0 0 ;
