@@ -1,173 +1,334 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Linked Open Data Challenge 2021 (LODチャレンジ2021) | 作品募集要項</title>
-<meta name="keywords" content="Linked Open Data Challenge 2021,LODチャレンジ2021,LODチャレンジ,Linked Open Data, LOD,オープンデータ,Open Data,Semantic Web,Ontology,人工知能,AI,ビッグデータ,データサイエンス,コンテスト,artificial intelligence" />
-<meta name="description" content="Linked Open Data Challenge 2021 (LODチャレンジ2021)" />
+<meta name="keywords" content="Linked Open Data Challenge 2021,LODチャレンジ2022,LODチャレンジ,Linked Open Data, LOD,オープンデータ,Open Data,Semantic Web,Ontology,人工知能,AI,ビッグデータ,データサイエンス,コンテスト,artificial intelligence" />
+<meta name="description" content="Linked Open Data Challenge 2021 (LODチャレンジ2022)" />
 <meta http-equiv="Content-Language" content="ja" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="imagetoolbar" content="no" />
 <!--OGP設定-->
-<meta property="og:site_name" content="LODチャレンジ2021" />
-<meta property="og:title" content="LODチャレンジ2021 | 作品募集要項" />
-<meta property="og:url" content="https://2021.lodc.jp/" />
-<meta property="og:image" content="https://2021.lodc.jp/images/logo2021/2021_sns_share_img4.jpg" />
-<meta property="og:description" content="LODチャレンジ2021 応募期間：2021.8.16～2021.12.15" />
+<meta property="og:site_name" content="LODチャレンジ2022" />
+<meta property="og:title" content="LODチャレンジ2022" />
+<meta property="og:url" content="https://2022.lodc.jp/" />
+<meta property="og:image" content="https://2022.lodc.jp/images/logo_img/2022_sns_share_img1.jpg" />
+<meta property="og:description" content="LODチャレンジ2022 応募期間：2022.6.10～2022.10.2" />
 <meta property="og:type" content="website" />
 
 <!--Twitter Card設定-->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@LodJapan">
 <meta name="twitter:creator" content="@LodJapan">
-<meta name="twitter:title" content="LODチャレンジ2021 | 作品募集要項">
-<meta name="twitter:description" content="LODチャレンジ2021 応募期間：2021.8.16～2021.12.15">
-<meta name="twitter:image:src" content="https://2021.lodc.jp/images/logo2021/2021_sns_share_img4.jpg">
-
+<meta name="twitter:title" content="LODチャレンジ2022">
+<meta name="twitter:description" content="LODチャレンジ2022 応募期間：2022.6.10～2022.10.2">
+<meta name="twitter:image:src" content="https://2022.lodc.jp/images/logo_img/2022_sns_share_img1.jpg">
 <link rel="canonical" href="https://2021.lodc.jp/" />
-<link href="./css/import.css" rel="stylesheet" type="text/css" media="all" />
-<link href="./css/share.css" rel="stylesheet" type="text/css" media="all" />
 <link href="./css/index.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="icon" href="https://2021.lodc.jp/favicon.ico"><!-- ファビコン -->
-<link rel="apple-touch-icon" sizes="180x180" href="https://2021.lodc.jp/apple-touch-icon.png"><!-- スマホ用アイコン -->
-<script type="text/javascript" src="./js/jquery.js"></script>
-<script type="text/javascript" src="./js/default.js"></script>
-<script>
-$(function() {
-	$("#header").load("header.html");
-	$("#footer").load("footer.html");
-});
-</script>
-</head>
+<link rel="icon" href="https://2022.lodc.jp/favicon.ico"> <!-- ファビコン -->
+<link rel="apple-touch-icon" sizes="180x180" href="https://2022.lodc.jp/apple-touch-icon.png"> <!-- スマホ用アイコン -->
 
+<title>作品募集要項 | LODチャレンジ2022</title>
+</head>
 <body>
 
-<div id="wrapper">
-
-<div id="header" class="clearfix"></div>
-<div id="mainImgBox"><p id="mainImg"></p></div>
-<div id="mainContents">
-	
-	<div class="clearfix">
-	<div id="entry">
-		<h1>LODチャレンジ2021 作品募集要項</h1>
-
-		<h2>１．エントリー部門</h2>
-		<img src="./images/logo2021/entry-5category.png" alt="" width="100%">
-		<p>LODチャレンジ2021では以下の2つの部門で作品を募集します。</p>
-		<dl>
-			<dt>データ作成部門</dt>
-				<dd>・新規に作成したデータ</dd>
-				<dd>・既存のデータを加工したデータ</dd>
-			<dt>データ活用部門</dt>
-				<dd>・LODを利用したアプリケーションやサービス、またはそのアイディア</dd>
-				<dd>・データを利用するための基盤的なツールやフレームワーク</dd>
-
-		</dl>
-		
-		<div style="margin-top:14px; padding:10px; border:1px solid #aaa; border-radius: 5px; background:#FFEEFF;">
-		<p style="font-size:125%;font-weight:bold;">応募部門の変更について</p>
-		<p>LODチャレンジでは、2011年の第1回からこれまでの10年間に渡ってのべ1000件以上の作品を応募いただきました。多様な作品と、それらを生み出すさまざまな活動を知る中で、未来のデータ社会の実現のために何よりも重要なことは、誰もが実際に「データをつくってみる」、そして「データをつかってみる」ことだと考えます。そこで、11年目を迎えるLODチャレンジ2021では、「<B>データ作成部門</B>」と「<B>データ活用部門</B>」の2つの部門でみなさまの取り組みを募集します。また、部門を問わないテーマ賞や学生奨励賞もご用意しています。ぜひご応募ください！</p>
-
-		<p style="font-size:110%;font-weight:bold;margin-top:4px;">データ作成部門</p>
-		<p>つくったデータそのものを応募することができる部門です。新たに作成したデータだけでなく、すでに公開されたデータを加工したもの、複数のデータ同士をつなぐためのデータなど、さまざまな種類のデータを募集します。対象のジャンルやテーマは問いません。誰かの役に立つものや、自分が好きなものなど、自由な発想で作成してください。※前回までのデータセット部門の名称が変更になりました。</p>
-
-		<p style="font-size:110%;font-weight:bold;margin-top:4px;">データ活用部門</p>
-		<p>データをつかうためのアイディアやアプリケーションを応募することができる部門です。データを分析した結果や、データ作成・公開を支援する仕組みなども歓迎します。※前回までのアイディア部門、アプリケーション部門、データ分析・可視化部門、基盤技術部門が1つになりました。</p>
-		
-		
-		</div>
-
-		<h2>２．応募期間</h2>
-		<p>2021年8月16日（月）- 2021年12月1日（水） </span></p>
-
-		<h2>３．応募規定</h2>
-		<p>各作品は、次の「応募規定」にご同意の上ご応募ください。</p>
-		<p>（ご応募頂いた時点で本規約にご同意頂いたものとみなします）</p>
-		<p><a href="entry_rule.html">LODチャレンジ2021応募規定</a></p>
-
-		<h2>４．応募方法</h2>
-		<p>下記ページの「応募フォーム」に必要事項を記入し，ご応募ください。</p>
-		<p><em style="color: red;">ナレッジコネクターでの作品紹介ページの作成は必須ではありませんが，
-		「応募作品の情報が取得可能なWebサイト等のURL」の入力が必要となります。</em>
-		<br>記入するURLは，
-		<ul>
-			<li>ナレッジコネクター（http://idea.linkdata.org/）で作成した作品紹介ページ</li>
-			を推奨しますが，
-			<li>独自に作成したWebページ</li>
-			<li>Github，Googleドライブ，Dropboxなどのサービスを用いて作品の情報を公開したURL</li>
-			<li>アプリのダウンロードサイト</li>
-		</ul>
-		などでも構いません。
-		</p>
-		
-		<!-- <p><a id="link-to-method" href="#">応募フォームは現在準備中です。</a></p> -->
-		
-		<!-- <p><a id="link-to-method" href="https://forms.gle/GGi1D62NbemYQ77m7">LODチャレンジ2021 作品応募フォーム</a></p> -->
-		
-		<p><a id="link-to-method" href="#">応募期間は終了いたしました</a></p>
-		
-		<p>応募方法の不明点等はLODチャレンジ2021事務局までメールでお問い合わせください。</p>
-		<p>LODチャレンジ2021事務局：office@lodc.jp</p>
-
-		<h2>５．表彰予定賞</h2>
-
-		<h3>【最優秀賞】</h3>
-		<div class="prize-category">
-		<ul>
-			<li>部門を横断して全応募作品の中で特に優れた作品</li>
-		</ul>
-		</div>
-		
-		<h3>【部門賞】</h3>
-		<div class="prize-category">
-		<ul>
-			<li>各部門で優れた作品</li>
-		</ul>
-		</div>
-
-		<h3>【テーマ賞】</h3>
-		<div class="prize-category">
-		<ul>
-			<li>特定のテーマについて優れた作品を審査委員会にて取り上げます</li>
-		</ul>
-		</div>
-
-		<h3>【学生奨励賞】</h3>
-		<div class="prize-category">
-		<p>大学・高専・高校・中学等の学生や生徒の方が応募された作品のうち、特に優れたものを表彰いたします。</p>
-		</div>
-
-		<h2>６．審査基準</h2>
-		<p>下記ページにて公開しております。</p>
-		<p><a href="entry_criteria.html">LODチャレンジ2021審査基準</a></p>
-
-		<h2>７．審査結果発表</h2>
-		<p>応募作品の審査はLODチャレンジ2021審査委員会で行います。</p>
-		<!-- <p>審査結果は2020年12月に開催される「LODチャレンジ2020授賞式」にて発表予定です。</p> -->
-		<p>審査結果は2021年12月～2022年1月頃に発表予定です。</p>
-
-		<h2>８．作品応募のヒント</h2>
-		<p>LODチャレンジ2021では、各部門の応募作品や、国内外で公開されているデータセット・アプリケーションがつながり、新しい価値を創造するような作品を募集しています。</p>
-		<p>例えば以下のような作品の応募を推奨しています。</p>
-		<ul>
-			<li>国内外のオープンデータを活用したアイディアを作品として応募する</li>
-			<li>これまでのLODチャレンジに応募されたデータセットを活用するアイディアを作品として応募する</li>
-			<li>これまでのLODチャレンジに応募されたデータセットをビジュアライズした作品を応募する</li>
-			<li>これまでのLODチャレンジに応募されたアイディアを実現するアプリケーションを開発して応募する</li>
-			<li>これまでのLODチャレンジに応募されたアプリケーションをより魅力的にするためのアイディアやデータセット、データ分析・可視化作品を応募する</li>
-			<li>これまでのLODチャレンジに応募された基盤技術を活用した作品を応募する</li>
-		</ul>
-		<!-- <p>また、より多くのつながる機会をご提供することを目的として、LODチャレンジ2020開催期間中に講演会・勉強会・スポンサー様との共催イベント等の開催を予定しております。</p>
-		<p>詳細は本サイトにおいて順次公開してまいります。</p> -->
-	</div>
-	</div>
-
-	</div>
-
-<div id="footer"></div>
+<!------------------------------------ ここからヘッダーコンテンツ ---------------------------------->
+<div id="headerContentsFrame">
+<a href="./"><img id="headerLogoImg" src="./images/logo_img/top_logo.png"></a>
+<ul id="navMenu">
+	<li><a href="./entry.html" id="current">開催趣旨・<br>作品募集要項</a></li>
+	<li><a href="./previous.html">過去の開催と<br>受賞作品等</a></li>
+	<li><a href="./technical_issue.html">LODに関する<br>技術情報</a></li>
+	<li><a href="./committee.html">実行委員会</a></li>
+	<li><a href="./sponsor_partner.html">スポンサー・<br>パートナー募集</a></li>
+</ul>
 </div>
+<hr class="borderLine" />
+<!------------------------------------ ここからメインコンテンツ ---------------------------------->
+<div class="mainContentsFrame">
+<h1>LODチャレンジ2022 開催趣旨</h1>
+	Linked Open Data チャレンジ Japan（LODチャレンジ）は、LOD(Linked Open Data)の技術普及の促進を目指したオープンデータのコンテストとして、2011年に初めて開催されました。<br>
+	<br>
+	LODは、誰もが自由に利用できるオープンデータ（Open Data）を、Webの技術を利用してつながったデータ（Linked Data）として公開することで、新たな価値を作り出すためのオープンデータ公開のベストプラクティスに位置づけられています。<br>
+	<br>
+	LODチャレンジでは、この「つながり」を大切にした活動を続け、2020年には10周年を迎えることができました。<br>
+	<br>
+	この間、多くの皆様のご支援のもと、データとデータの「つながり」のみならず、<br>
+	応募いただいた作品と作品の「つながり」、<br>
+	活動に関わり人と人の「つながり」、<br>
+	......と、多くの「つながり」が生まれました。<br>
+	<br>
+	これらの「つながり」を大切にし、これからも新たな「つながり」を生み出すことができる「場」を提供することを目的として、今年度もLODチャレンジ2022を開催いたします。<br>
+	<br>
+	LODチャレンジ2022の応募部門は、昨年度に引き続き、「データ作成部門」と「データ活用部門」の２部門とします。<br>
+	これにより、本チャレンジの最大の特徴である「データ」を中心とした様々な取り組みを応援し、データを中心としたコミュニティ形成を目指します。<br>
+	<br>
+	これまでLODチャレンジを支えて頂いた応募者の皆様、スポンサー・パートナー・サポーターの皆様に心から感謝申しあげるとともに、 引きつづきのご支援を賜われますよう、よろしくお願い申しあげます。<br>
+	<br>
+	
+	
+<h1>LODチャレンジ2022 作品募集要項</h1>
+		
+<style>
+	#link-to-method{
+		display:block;
+		background: #C40013;
+		color: #FFF;
+		font-size: 1.3em;
+		padding: 10px;
+		text-decoration: none;
+		border-radius: 50px;
+		width: 600px;
+		margin: 20px auto;
+		text-align: center;
+	}
 
+	@media only screen and (max-width:750px){
+		#entry #link-to-method{
+			width: 100%;
+			padding: 7px 0 7px 0;
+		}
+	}
+</style>	
+	<h2>１．エントリー部門</h2>
+	<img src="./images/logo_img/entry-5category.png" alt="" width="100%">
+	<div style="margin-top:14px; padding:10px; border:1px solid #aaa; border-radius: 5px; background:#FFEEFF;">
+		<p>LODチャレンジ2022では以下の2つの部門で作品を募集します。</p>
+		<p style="font-size:110%;font-weight:bold; margin:10px 0 1px 0; ">データ作成部門</p>
+		<li style="margin-left:10px;">新規に作成したデータ</li>
+		<li style="margin-left:10px;">既存のデータを加工したデータ</li>
+		<p style="margin:3px 0 10px 10px;">つくったデータそのものを応募することができる部門です。新たに作成したデータだけでなく、すでに公開されたデータを加工したもの、
+		複数のデータ同士をつなぐためのデータなど、さまざまな種類のデータを募集します。対象のジャンルやテーマは問いません。
+		誰かの役に立つものや、自分が好きなものなど、自由な発想で作成してください。</p>
+
+		<p style="font-size:110%;font-weight:bold;margin:15px 0 1px 0; ">データ活用部門</p>
+		<li style="margin-left:10px;">LODを利用したアプリケーションやサービス、またはそのアイディア</li>
+		<li style="margin-left:10px;">データを利用するための基盤的なツールやフレームワーク</li>
+		<p style="margin:3px 0 10px 10px;">データをつかうためのアイディアやアプリケーションを応募することができる部門です。
+		データを分析した結果や、データ作成・公開を支援する仕組みなども歓迎します。</p>
+	</div>
+	<p style="font-size:110%;font-weight:bold;margin:15px 0 1px 0; ">作品応募のヒント</p>
+	LODチャレンジ2022では、各部門の応募作品や、国内外で公開されているデータセット・アプリケーションがつながり、新しい価値を創造するような作品を募集しております。以下のような作品の応募を推奨しています。
+	<p style="font-size:90%; margin:10px 0 0 10px;">・ 国内外のオープンデータを活用したアイディアを作品として応募する</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">・ これまでに応募されたデータを活用するアイディアを作品として応募する</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">・ これまでに応募されたデータをビジュアライズした作品を応募する</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">・ これまでに応募されたアイディアを実現するアプリケーションを開発して応募する</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">・ これまでに応募されたアプリケーションをより魅力的にするためのアイディアやデータセット、データ分析・可視化作品を応募する</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">・ これまでに応募された基盤技術を活用した作品を応募する</p>
+
+	<div style="margin-top:14px; padding:20px 10px; border:1px solid #aaa; border-radius: 5px; background:#FFEEFF;">
+	2021年11月に開催したイベント <b>LODチャレンジ作品温故知新</b> の資料（ <a href="https://www.youtube.com/watch?v=D0eEmG5cJGc">アーカイブ動画</a> | 
+	<a href="https://2021.lodc.jp/doc/LODC2021_1101lodc-works.pdf">スライド資料</a> ） にて、過去の優れた応募作品をまとめて紹介しています。ぜひ応募の参考にしてください。
+	</div>
+	
+
+	<h2>２．応募期間 及び 結果発表</h2>
+	<p style="font-weight:bold; font-size:115%;">応募期間 ： 2022年6月10日(月) ～ 2022年10月2日(日)<br>
+	<p style="font-weight:bold; font-size:115%;">審査結果発表 ： 2022年12月(予定)<br>
+
+	<h2>３．表彰予定賞</h2>
+	<p style="margin-bottom:0; "><span style="font-weight:bold; font-size:115%;">最優秀賞</span> ： 部門を横断して全応募作品の中で特に優れた作品</p>
+	<p style="margin-bottom:0; "><span style="font-weight:bold; font-size:115%;">部門賞</span> ： 各部門で優れた作品</p>
+	<p style="margin-bottom:0; "><span style="font-weight:bold; font-size:115%;">テーマ賞</span> ： 特定のテーマについて優れた作品</p>
+	<p style="margin-bottom:0; "><span style="font-weight:bold; font-size:115%;">学生奨励賞</span> ： 大学・高専・高校・中学等の学生や生徒の方が応募された作品のうち、特に優れた作品</p>
+
+	
+	<h2>４．応募方法</h2>
+	<p>「５．応募規定」にご同意の上、下記「作品応募フォーム」に必要事項を記入し、ご応募ください。（ご応募頂いた時点で応募規定に同意頂いたものとみなします）</p>
+	
+	<!-- <p><a id="link-to-method" href="#">応募フォームは現在準備中です。</a></p> -->
+	<p><a id="link-to-method" href="">LODチャレンジ2022 作品応募フォーム</a></p>
+	<!-- <a id="link-to-method" href="#">応募期間は終了いたしました</a> -->
+	
+	<p>フォームに記入する作品のURLは、ナレッジコネクター（ <a href="http://idea.linkdata.org/">http://idea.linkdata.org/</a> ）で作成した作品紹介ページを推奨しますが、
+	独自に作成したWEBサイト、Github・Googleドライブ・Dropboxなどのサービスを用いて作品の情報を公開したURLなどでも構いません。
+	ご不明点等につきましては事務局までメール（ office@lodc.jp ）でお問い合わせください。</p>
+	
+	<h2>５．応募規定</h2>
+	<p style="font-weight:bold; margin-bottom:0;">規定1</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">
+	LODチャレンジ2022に応募する全ての作品は「応募規定」に従うこととします。<br>
+	応募にあたっては、応募者は、この応募規定の内容に同意されたものとします。 <br>
+	応募規定に違反したと審査委員会で判断した場合、対象の応募者の作品を審査対象外とします。<br>
+	応募規定に違反またはその他審査委員会で必要と判断した場合、対象の応募者の作品を了解なしに応募一覧から削除することがあります。
+	</p>
+	<p style="font-weight:bold; margin-bottom:0;">規定2</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">
+	LODチャレンジ2022は個人、団体を問わずどなたでも応募することができます。<br>
+	ただし、16才以下の応募者は保護者の許可を得てから応募して下さい。<br>
+	また、応募書式は日本語または英語で記述して下さい。
+	</p>
+	<p style="font-weight:bold; margin-bottom:0;">規定3</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">
+	LODチャレンジ2022への応募は、LODチャレンジ2022開始前に発表された作品、開発された作品も対象となります。また、LODチャレンジ2022開催期間中において他で発表された作品も対象となります。<br>
+	ただし、既に発表された作品をLODチャレンジ2022に応募した場合において発生した問題については応募者自身の責任となります。
+	</p>
+	<p style="font-weight:bold; margin-bottom:0;">規定4</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">
+	LODチャレンジ2022への応募数は自由です。<br>
+	また、複数の部門への応募も自由です。<br>
+	ただし、同一の作品を複数の部門に応募することはできません。<br>
+	同一の作品と実行委員会が判断した作品が複数の部門に応募されていた場合、応募者の了解なしに応募部門をひとつに決定する場合があります。
+	</p>
+	<p style="font-weight:bold; margin-bottom:0;">規定5</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">
+	LODチャレンジ2022に応募する全ての作品は、LODチャレンジ2022応募期間中および2022年3月31日まではインターネットからアクセスあるいはダウンロードできるようにして下さい。
+	</p>
+	<p style="font-weight:bold; margin-bottom:0;">規定6</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">
+	公開された作品を再利用して応募を行う場合には、再利用の対象となった応募作品のURLを必ず応募書式に記入して下さい。
+	</p>
+	<p style="font-weight:bold; margin-bottom:0;">規定7</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">
+	再利用または追加元となった応募作品のURLが応募書式に記述されていない場合において、規定6に該当した作品であると応募者の了解なしに実行委員会が判断する場合があります。
+	また、URLが記入されている場合においても、記入されたURL以外に規定6に該当した作品であると、応募者の了解なしに実行委員会が判断する場合があります。
+	</p>
+	<p style="font-weight:bold; margin-bottom:0;">規定8</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">
+	LODチャレンジ2022に応募された作品への追加、変更、修正は応募期間中および応募期間後において自由に行えます。<br>
+	応募作品の審査は、応募締切日時点の作品で行います。<br>
+	応募締切以降も作品への追加、変更、修正は自由に行えますが、締切以降に行われた追加、変更、修正の内容は審査対象外となります。<br>
+	また、一度応募した作品の取り下げの際は、応募を取り下げる旨をLODチャレンジ実行委員会事務局にメールにてご連絡ください。
+	</p>
+	<p style="font-weight:bold; margin-bottom:0;">規定9</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">
+	作品の応募の際には応募書式においてライセンスを必ず指定して下さい。指定がない場合は、権利を放棄したパブリックドメインの扱いとなります。
+	</p>
+	<p style="font-weight:bold; margin-bottom:0;">規定10</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">
+	各部門で既に応募された作品を利用する場合は、応募書式に記載されているライセンスを遵守して下さい。<br>
+	また、再利用対象の応募作品に対する著作権、商標などの知財財産に関する規定が本サイト以外の公開先で規定されている場合には、公開先の規定を遵守して下さい。
+	</p>
+	<p style="font-weight:bold; margin-bottom:0;">規定11</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">
+	規定9、規定10における著作権の指定および著作権が指定された作品の再利用また本サイト以外で公開された応募作品の利用において発生したクレームや紛争等は、応募者自身で対応するものとし、実行委員会は一切の責任を負いません。
+	</p>
+	<p style="font-weight:bold; margin-bottom:0;">規定12</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">
+	第三者が権利を有する著作物を使用（再利用を含む）する場合等は、あらかじめ応募者が許諾を得た上で応募して下さい。
+	第三者が権利を有する著作物を使用した場合において発生したクレームや紛争等は、応募者自身で対応するものとし、実行委員会は一切の責任を負いません。
+	</p>
+	<p style="font-weight:bold; margin-bottom:0;">規定13</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">
+	応募者は、応募作品に含まれまたは応募作品が基づいている発明、着想、情報、著作物、商標、ノウハウ、アイディア等に関し、
+	LODチャレンジ2022に応募し、または規定9、規定10に基づいたライセンスを設定するために必要な知的財産権その他の正当な権利を有し、
+	または適切な権利処理を行っていること、および、他の応募者、実行委員会が応募作品をLODチャレンジ2022に関連して再利用する行為が応募者または第三者の権利を侵害しないことを保証するものとします。
+	応募者は、かかる保証に反して実行委員会に発生した損害の全てを補償するものとします。
+	</p>
+	<p style="font-weight:bold; margin-bottom:0;">規定14</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">
+	応募者は実行委員会が今後応募作品を無償で利用（各種媒体への掲載、催事での展示）することに同意するものとします。<br>
+	また、応募者は、応募作品が第三者に広く公表されることをあらかじめ承諾し、応募作品に含まれる情報の範囲や内容については各自の責任で判断するものとします。
+	応募された作品のLODチャレンジ2022における利用または公表によって応募者に発生するいかなる損害も、実行委員会は、一切負担しないことを応募者はあらかじめ承諾します。
+	</p>
+	<p style="font-weight:bold; margin-bottom:0;">規定15</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">
+	応募者は、第三者への公開を望まない知的財産権、秘密情報等を応募作品に含めないものとし、応募作品に含める情報については自己の責任と判断においてあらかじめ必要な範囲で適切な権利保護の手続きを取るものとします。
+	</p>
+	<p style="font-weight:bold; margin-bottom:0;">規定16</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">
+	応募者は、応募作品には秘密情報を含めないものとし、万一、応募作品に秘密情報が含まれていた場合にも、
+	応募者は、かかる秘密情報が公表される可能性があることをあらかじめ承諾し、実行委員会に対して、何らの損害を請求しないものとします。
+	</p>
+	<p style="font-weight:bold; margin-bottom:0;">規定17</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">
+	本規定およびLODチャレンジ2022に起因しまたは関連する紛争は、日本法に準拠して解釈し、解決されるものとします。本規定の一部が無効と判断された場合にも、残りの規定は有効に存続するものとします。<br>
+	実行委員会の判断において必要と認めた場合、本規定は修正されることがあるものとします。本規定に定めのない事項や疑義を生じた事項につきましては、実行委員会の行う決定に従って頂きますので、最新の情報を確認して下さい。
+	</p>
+	<p style="font-weight:bold; margin-bottom:0;">規定18</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">
+	法律において認められる最大限の範囲で、LODチャレンジ2022に起因または関連する紛争または訴えが生じた場合に、応募者が実行委員会に対して、訴訟を提起し、差し止めによる救済を求め、
+	または司法もしくはその他の手続を申し立てるその他のいかなる権利もここに排除されるものとし、応募者はそれらの権利を全て明確に放棄するものとします。<br>
+	なお、LODチャレンジ2022に起因または関連する一切の紛争については、東京地方裁判所を第一審の専属的合意管轄裁判所とします。
+	</p>
+	<p style="font-weight:bold; margin-bottom:0;">規定19</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">
+	実行委員会はLODチャレンジ2022開催においていかなる損失、損害、発生費用などで責任を追うことはなく、応募者または応募者の技術的な問題などについて実行委員会は一切の責任を負いません。
+	</p>
+	<p style="font-weight:bold; margin-bottom:0;">規定20</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">
+	実行委員会は、応募作品の窃盗、剽窃、破壊、不正アクセス、もしくは改ざん、または技術、ネットワーク、電話機、コンピュータ、ハードウェア、またはソフトウェアの異常もしくは制約について責任を負いません。<br>
+	また、実行委員会は、電子的な伝送エラーによる操作または伝送の遺漏、中断、削除、欠陥、遅延に対して責任を負いません。<br>
+	LODチャレンジ2022に応募するため、または応募期間中に生じた経済的な損害その他のいかなる損失に対しても実行委員会は責任を負わないものとします。
+	</p>
+	<p style="font-weight:bold; margin-bottom:0;">規定21</p>
+	<p style="font-size:90%; margin:0 0 0 10px;">
+	実行委員会は、応募者が応募作品に含まれる知的財産権、秘密情報等に関してLODチャレンジ2022への応募に起因または関連して何らかの損害を被った場合も、当該損害につき、一切の責任を負わないものとします。<br>
+	応募者は、応募作品に起因または関連して、第三者から要求、クレーム等を受け、または第三者に対して要求、クレーム等が発生した場合には、自己の責任と費用で、
+	これらの要求、クレームおよびこれらに起因する紛争を処理解決するものとし、実行委員会に一切迷惑または損害を与えないものとします。<br>
+	実行委員会はかかるトラブルについて、一切の責任を負いません。万一、実行委員会がこれにより損害を被った場合には、応募者は、自己の行為により実行委員会に生じた一切の損害、損失および費用を賠償するものとします。
+	</p>
+
+	<h2>６．審査基準</h2>
+
+	<h3 style="background:#EEEEEE; padding:5px;">データ作成部門 審査基準</h3>
+	
+		<p style="font-weight:bold; margin-bottom:0;">Impact - 影響力</p>
+		<p style="font-size:90%; margin:0 0 0 10px;">人々の意識や行動を変えるようなインパクトを与える作品か</p>
+			
+		<p style="font-weight:bold; margin-bottom:0;">Creativity - 創造力</p>
+		<p style="font-size:90%; margin:0 0 0 10px;">世の中に新たな価値を創りだす作品か</p>
+			
+		<p style="font-weight:bold; margin-bottom:0;">Usefulness - 有用性</p>
+		<p style="font-size:90%; margin:0 0 0 10px;">利用しやすく、役に立つ作品であるか</p>
+
+		<p style="font-weight:bold; margin-bottom:0;">Accessibility - 機械可読性</p>
+		<p style="font-size:90%; margin:0 0 0 10px;">機械から読み取りやすい形で公開されているか</p>
+		
+		<p style="font-weight:bold; margin-bottom:0;">Openness - 開放性</p>
+		<p style="font-size:90%; margin:0 0 0 10px;">他者が二次利用可能なライセンスで公開しているか</p>
+		
+		<p style="font-weight:bold; margin-bottom:0;">Linkability - つながる可能性</p>
+		<p style="font-size:90%; margin:0 0 0 10px;">複数のデータソースを組み合わせて利用することが提案されているか、そしてアイディアが他の作品等（※）で利用・実現されているか</p>
+		<p style="font-size:90%; margin:0 0 0 10px;">※応募者が直接作成・運用に関与していないデータ・アプリケーション・組織等</p>
+
+		<p style="font-weight:bold; margin-bottom:0;">Sustainability - 持続可能性</p>
+		<p style="font-size:90%; margin:0 0 0 10px;">継続的に公開・更新し続けるための工夫や計画が示されているか</p>
+
+
+
+	<h3 style="background:#EEEEEE; padding:5px;">データ活用部門 審査基準</h3>
+		<p style="font-weight:bold; margin-bottom:0;">Impact - 影響力</p>
+		<p style="font-size:90%; margin:0 0 0 10px;">人々の意識や行動を変えるようなインパクトを与える作品か</p>
+			
+		<p style="font-weight:bold; margin-bottom:0;">Creativity - 創造力</p>
+		<p style="font-size:90%; margin:0 0 0 10px;">世の中に新たな価値を創りだす作品か</p>
+			
+		<p style="font-weight:bold; margin-bottom:0;">Usefulness - 有用性</p>
+		<p style="font-size:90%; margin:0 0 0 10px;">利用しやすく、役に立つ作品であるか</p>
+		
+		<p style="font-weight:bold; margin-bottom:0;">Use of open data - オープンデータ活用性</p>
+		<p style="font-size:90%; margin:0 0 0 10px;">オープンデータが効果的に使われているか</p>
+			
+		<p style="font-weight:bold; margin-bottom:0;">Linkability - つながる可能性</p>
+		<p style="font-size:90%; margin:0 0 0 10px;">複数のデータソースを組み合わせて利用することが提案されているか、そしてアイディアが他の作品等（※）で利用・実現されているか</p>
+		<p style="font-size:90%; margin:0 0 0 10px;">※応募者が直接作成・運用に関与していないデータ・アプリケーション・組織等</p>
+
+		<p style="font-weight:bold; margin-bottom:0;">Sustainability - 持続可能性</p>
+		<p style="font-size:90%; margin:0 0 0 10px;">継続的に公開・更新し続けるための工夫や計画が示されているか</p>
+			
+		<p style="font-weight:bold; margin-bottom:0;">Operativity - 操作性</p>
+		<p style="font-size:90%; margin:0 0 0 10px;">操作が直感的でわかりやすいか</p>
+
+		<p style="font-weight:bold; margin-bottom:0;">Completeness - 完成度</p>
+		<p style="font-size:90%; margin:0 0 0 10px;">公開・配布できるレベルに近いものに仕上がっているか</p>
+			
+		<p style="font-weight:bold; margin-bottom:0;">Openness - 開放性</p>
+		<p style="font-size:90%; margin:0 0 0 10px;">作品の成果物（ソースコード等）を他者が二次利用可能なライセンスで公開しているか</p>
+
+		<p style="font-weight:bold; margin-bottom:0;">Designability - デザイン性</p>
+		<p style="font-size:90%; margin:0 0 0 10px;">対象のより深い理解や新たな知識の発見を促すようなデザイン（データ分析や可視化）がなされているか</p>
+			
+		<p style="font-weight:bold; margin-bottom:0;">Feasibility - 実現可能性</p>
+		<p style="font-size:90%; margin:0 0 0 10px;">アイディアを実現するための工夫や計画が示されているか</p>
+
+
+
+</div>
+<div id="footerContentsFrame">
+	<p id="copyright">
+		Linked Open Data Challenge by Linked Open Data Challenge Consortium is licensed under a Creative Commons Attribution 4.0 International License.
+	</p>
+</div>
 </body>
 </html>
