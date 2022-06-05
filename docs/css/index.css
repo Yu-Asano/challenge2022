@@ -126,7 +126,7 @@ ul#navMenu li a:hover , ul#navMenu li a#current { /* マウスON時 , カレン�
 	background:#FFEEFF;
 	border-bottom:3px solid #C40013;
 	margin-top:50px;
-	padding: 3px 0 1px 15px;
+	padding: 10px 0 6px 15px;
 }
 .mainLeftFrame {
 	width:calc(100% - 260px) ;
