@@ -120,6 +120,10 @@ ul#navMenu li a:hover , ul#navMenu li a#current { /* マウスON時 , カレン�
 }
 
 /******  　その他もろもろ   *******************************/
+#mainLogoImg {
+	width:250px;
+	max-width:50%;
+}
 .mainContentsFrame h1 {
 	margin-top:70px;
 }
